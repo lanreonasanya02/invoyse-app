@@ -1,6 +1,6 @@
 import invoyseLogo from "../../../public/logo.svg";
-// import invoyseText from "../../assets/invoyse.png";
-import invoyseText from "/src/assets/invoyse.png";
+import invoyseText from "../../assets/Invoyse.png";
+// import invoyseText from "/src/assets/invoyse.png";
 import { CiDeliveryTruck, CiExport } from "react-icons/ci";
 import { LuBarChart4, LuClipboardCheck, LuUsers } from "react-icons/lu";
 import { TbCurrencyNaira } from "react-icons/tb";
