@@ -19,8 +19,8 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="d-flex align-items-center gap-4">
-        <Logo width={61} image={invoyseLogo} imageAlt="Adin University Logo" />
-        <Logo width={114} image={invoyseText} imageAlt="Adin University Logo" />
+        <Logo width={61} image={invoyseLogo} imageAlt="invoyse-logo" />
+        <Logo width={114} image={invoyseText} imageAlt="invoyse-word-mark" />
       </div>
 
       <div className="links">
