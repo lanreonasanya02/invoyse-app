@@ -1,0 +1,109 @@
+nav {
+  margin-left: 381px;
+  padding: 15px 25px 13px;
+  border-bottom: 6px solid #f5f5f5;
+  /* width: 100%; */
+}
+
+nav .switch-text {
+  color: #e7a500;
+  font-size: 13px;
+  line-height: 15.6px;
+  text-decoration: underline;
+}
+
+.smaller-text {
+  font-size: 11px;
+}
+
+nav .icons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+nav .icons .icon {
+  margin-right: 10px;
+}
+
+nav .icons .split-icons {
+  margin-right: 25px;
+}
+
+nav .icons .other-icons {
+  background: #dcecec;
+  border-radius: 16px;
+  padding: 8px 12px;
+  position: relative;
+  text-align: center;
+}
+
+nav .icons .other-icons .active {
+  color: #006869;
+
+  background: #dcecec;
+  border-radius: 16px;
+  padding: 8px 12px;
+  position: relative;
+  text-align: center;
+}
+
+nav .scheme-toggle {
+  background-color: #d9d9d9;
+  border-radius: 18px;
+  padding: 5px;
+}
+
+nav .scheme-toggle .light-mode {
+  background-color: #fff;
+  border-radius: 18px;
+  padding: 5px;
+}
+
+nav .drop-down:hover {
+  color: #ffb600;
+  cursor: pointer;
+}
+
+nav .profile-container {
+  padding: 8px 40px;
+  position: relative;
+}
+
+nav .profile-container:hover {
+  background-color: #f5f5f5;
+  padding: 8px 40px;
+  border-radius: 10px;
+}
+
+/* Modal */
+
+.modal-container {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 300px;
+  background: #fff;
+  padding: 20px 3px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.modal-container button {
+  margin-bottom: 20px;
+  border: none;
+  background: none;
+  text-align: start;
+  width: 100%;
+  font-weight: 500;
+}
+
+.modal-container button:hover,
+.modal-container .close-see-modal:hover {
+  color: #000;
+}
+
+.profile-img {
+  text-align: left;
+}
