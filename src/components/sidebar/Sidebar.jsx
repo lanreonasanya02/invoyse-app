@@ -13,9 +13,9 @@ import { TfiWrite } from "react-icons/tfi";
 import { MdOutlineDashboardCustomize } from "react-icons/md";
 import { TiHomeOutline } from "react-icons/ti";
 import Logo from "../Logo";
-import "./SideBar.css";
+import "./Sidebar.css";
 
-export default function SideBar() {
+export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="d-flex align-items-center gap-4">
