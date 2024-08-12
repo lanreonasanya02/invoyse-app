@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
-import "../navbar/Navbar.css";
 import profile from "../../assets/profile.png";
 import { IoCheckmarkCircleSharp } from "react-icons/io5";
+import "../navbar/Navbar.css";
 
 ProfileModal.propTypes = {
   onClose: PropTypes.func,

@@ -1,5 +1,4 @@
 import { CiDark, CiLight } from "react-icons/ci";
-import "./NavBar.css";
 import {
   IoNotificationsOutline,
   IoSearch,
@@ -9,6 +8,7 @@ import profile from "../../assets/profile.png";
 import { TfiAngleDown } from "react-icons/tfi";
 import { useState } from "react";
 import ProfileModal from "./ProfileModal";
+import "./Navbar.css";
 
 export default function Navbar() {
   const [isModalOpen, setIsModalOpen] = useState(false);
